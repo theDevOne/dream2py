@@ -1,0 +1,53 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "asgiref": {
+        "sha256": "71e68008da809b957b7ee4b43dbccff33d1b23519fb8344e33f049897077afac",
+        "url": "https://files.pythonhosted.org/packages/8f/29/38d10a47b322a77b2d12c2b79c789f52956f733cb701d4d5157c76b5f238/asgiref-3.6.0-py3-none-any.whl",
+        "version": "3.6.0"
+      },
+      "beautifulsoup4": {
+        "sha256": "2130a5ad7f513200fae61a17abb5e338ca980fa28c439c0571014bc0217e9591",
+        "url": "https://files.pythonhosted.org/packages/ee/a7/06b189a2e280e351adcef25df532af3c59442123187e228b960ab3238687/beautifulsoup4-4.12.0-py3-none-any.whl",
+        "version": "4.12.0"
+      },
+      "bs4": {
+        "sha256": "36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a",
+        "url": "https://files.pythonhosted.org/packages/10/ed/7e8b97591f6f456174139ec089c769f89a94a1a4025fe967691de971f314/bs4-0.0.1.tar.gz",
+        "version": "0.0.1"
+      },
+      "django": {
+        "sha256": "f2f431e75adc40039ace496ad3b9f17227022e8b11566f4b363da44c7e44761e",
+        "url": "https://files.pythonhosted.org/packages/89/86/59e237f7176cfc1544446914fa329fd560bb8fce46be52dd7af5dc7c54f9/Django-4.1.7-py3-none-any.whl",
+        "version": "4.1.7"
+      },
+      "soupsieve": {
+        "sha256": "49e5368c2cda80ee7e84da9dbe3e110b70a4575f196efb74e51b94549d921955",
+        "url": "https://files.pythonhosted.org/packages/d2/70/2c92d7bc961ba43b7b21032b7622144de5f97dec14b62226533f6940798e/soupsieve-2.4-py3-none-any.whl",
+        "version": "2.4"
+      },
+      "sqlparse": {
+        "sha256": "0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34",
+        "url": "https://files.pythonhosted.org/packages/97/d3/31dd2c3e48fc2060819f4acb0686248250a0f2326356306b38a42e059144/sqlparse-0.4.3-py3-none-any.whl",
+        "version": "0.4.3"
+      }
+    },
+    "targets": {
+      "default": {
+        "asgiref": [],
+        "beautifulsoup4": [
+          "soupsieve"
+        ],
+        "bs4": [
+          "beautifulsoup4"
+        ],
+        "django": [
+          "asgiref",
+          "sqlparse"
+        ],
+        "soupsieve": [],
+        "sqlparse": []
+      }
+    }
+  }
+}
